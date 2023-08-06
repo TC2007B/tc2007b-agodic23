@@ -6,14 +6,16 @@
 
 ## Plan de Evaluación Reto
 
-- Etapa Análisis y Presentación del Plan de Solución a Socios Formadores (28 feb)
-- Sprint 1 (12 mar)
-- Presentación de Avance Socios Formadores (28 mar)
-- Sprint 2 (2 abr)
-- Presentación de Avance Socios Formadores (18 Abr)
-- Sprint 3 (23 abr)
-- Sprint 4 (Entrega Final) 4 May
-- Presentación Final Socios Formadores (Semana 1-5 May)
+- Presentación del Socio Formador (10 de Agosto)
+- Sprint Review 1 (17 de Agosto)
+- Sesión de Trabajo con Socio Formador (24 de Agosto)
+- Sprint Review 2 (31 de Agosto)
+- Sesión de Trabajo con Socio Formador (7 de Septiembre)
+- Sprint Review 3 con Socio Formador (21 de Septiembre)
+- Sesión de Trabajo con Socio Formador (28 de Septiembre)
+- Sprint Review 4 con Socio Formador (5 de Octubre)
+- Sesión de Trabajo con Socio Formador (12 de Octubre)
+- Presentación Final Socios Formadores (Semana 16-20 Oct)
 
 ### **Total de la calificación Final: 47%**
 
