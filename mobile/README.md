@@ -3,10 +3,10 @@
 ![Tec de Monterrey](/images/logotecmty.png)
 
 ## Temario Técnico
-| Clase | Tema                                       | Android                                                                                                                                             | iOS                                          |
-| ----- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 1     | Introducción al desarrollo móvil (Técnico) | [Introducción](https://docs.google.com/presentation/d/1IWuIlCWQ2FLjHXrOKezM8-RiSa1Or-wo9l-ckO_1HLY/edit#slide=id.g23bc83ae714_0_0)                  |
-| 2     | Introducción a Kotlin / Swift              | [Básicos de Kotlin](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) <br /><br /> [Funciones en Kotlin](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) <br /><br /> [Clases y Objetos](https://docs.google.com/presentation/d/1NWo4-P8zO0rnlDB6zEMH7oPZP1PEP3q0d9wKB-asV9s/edit#slide=id.gb9961b3fa0_0_433) | [iOS](/mobile/ios/ppts/IOS_Introduction.pdf) |
+| Clase | Tema                                       | Android                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | iOS                                                   |
+| ----- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| 1     | Introducción al desarrollo móvil (Técnico) | [Introducción](https://docs.google.com/presentation/d/1IWuIlCWQ2FLjHXrOKezM8-RiSa1Or-wo9l-ckO_1HLY/edit#slide=id.g23bc83ae714_0_0)                                                                                                                                                                                                                                                                                                                                                                |
+| 2     | Introducción a Kotlin / Swift              | [Básicos de Kotlin](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) <br /><br /> [Funciones en Kotlin](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) <br /><br /> [Clases y Objetos](https://docs.google.com/presentation/d/1NWo4-P8zO0rnlDB6zEMH7oPZP1PEP3q0d9wKB-asV9s/edit#slide=id.gb9961b3fa0_0_433) | [Introducción](/mobile/ios/ppts/IOS_Introduction.pdf) |
 | 3     | Mi primera app en Android / iOS            |
 | 4     | Concepto detalle vista                     |
 | 5     | MVVM y Clean Architecture                  |
@@ -14,14 +14,14 @@
 | 7     | Despliegue de Aplicaciones                 |
 
 ## Laboratorios
-| Laboratorio | Tema                                                      | Android                                                       | iOS                                         |
-| ----------- | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------- |
-| 1           | Introducción a Kotlin/Swift                               | [Laboratorio](/mobile/labs/1_intro_kotlin.md)                 | [Laboratorio](/mobile/ios/1_intro_swift.md) |
-| 2           | Primera App en Kotlin/Swift |          |
-| 3           | Modelos y Listas                               | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md)  |
-| 4           | Consumiendo APIs                                          | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)             |
-| 5           | Arquitectura de Proyectos                                                      | [Laboratorio](/mobile/labs/5_arquitectura_mvvm.md)            |
-| 6           | Desarrollo Avanzado y UI  | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md) |
+| Laboratorio | Tema                        | Android                                                       | iOS                                         |
+| ----------- | --------------------------- | ------------------------------------------------------------- | ------------------------------------------- |
+| 1           | Introducción a Kotlin/Swift | [Laboratorio](/mobile/labs/1_intro_kotlin.md)                 | [Laboratorio](/mobile/ios/1_intro_swift.md) |
+| 2           | Primera App en Kotlin/Swift |                                                               |
+| 3           | Modelos y Listas            | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md)  |
+| 4           | Consumiendo APIs            | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)             |
+| 5           | Arquitectura de Proyectos   | [Laboratorio](/mobile/labs/5_arquitectura_mvvm.md)            |
+| 6           | Desarrollo Avanzado y UI    | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md) |
 
 ## Como empezar
 ### Para la clase necesitarás lo siguiente:
