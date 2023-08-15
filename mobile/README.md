@@ -6,7 +6,7 @@
 | Clase | Tema                                       | Recursos                                                                                                                                                                                                                                                                           |
 | ----- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1     | Introducción al desarrollo móvil (Técnico) | [Presentación1](https://docs.google.com/presentation/d/1QriPiwRf9AlTWUCWdEzkP1my3Y2n3eam4UlggxtaqGA/edit?usp=sharing) / [Presentación2](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) |
-| 2     | Introducción a Kotlin                      |
+| 2     | Introducción a Kotlin/Swift                | [iOS](/mobile/ios/ppts/IOS_Introduction.pdf)                                                                                                                                                                                                                                       |
 | 3     | Mi primera app en Android                  |
 | 4     | Concepto detalle vista                     |
 | 5     | MVVM y Clean Architecture                  |
