@@ -14,9 +14,9 @@
 | 7     | Despliegue de Aplicaciones                 |
 
 ## Laboratorios
-| Laboratorio | Tema                                                      | Android                                                       | iOS                                        |
-| ----------- | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------ |
-| 1           | Introducción a Kotlin/Swift                               | [Laboratorio](/mobile/labs/1_intro_kotlin.md)                 | [Laboratorio](/ios/labs/1_intro_kotlin.md) |
+| Laboratorio | Tema                                                      | Android                                                       | iOS                                       |
+| ----------- | --------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------- |
+| 1           | Introducción a Kotlin/Swift                               | [Laboratorio](/mobile/labs/1_intro_kotlin.md)                 | [Laboratorio](/ios/labs/1_intro_swift.md) |
 | 2           | Primera App en Kotlin con ViewBinding y diseño de layouts |                                                               |
 | 3           | Data classes y recyclerview                               | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md)  |
 | 4           | Consumiendo APIs                                          | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)             |
