@@ -192,10 +192,10 @@ Para ejecutar la concatenación solo se debe añadir las variables entre comilla
 Como te mencionaba con la concatenación también podemos hacer operaciones. Debemos cuidar cualquier error ya que de lo contrario será difícil detectarlo, pero si lo controlamos no debería haber problema.
 
 ```
-val introduction = "El resultado de"
-val plus = "más"
-val firstNumber = 2
-val secondNumber = 5
+var introduction = "El resultado de"
+var plus = "más"
+var firstNumber = 2
+var secondNumber = 5
 
 print("\(introduction) \(firstNumber) \(plus) \(secondNumber) es: \(firstNumber + secondNumber)")
 ```
