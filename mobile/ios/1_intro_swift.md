@@ -117,7 +117,7 @@ let test = "Test. 12345!·$%&/"
 let char = "a"
 ```
 
-En caso de tener strings de multiples lineas, puedes utilizar """" de la siguiente forma:
+En caso de tener strings de multiples lineas, puedes utilizar """ de la siguiente forma:
 
 ```
 let quotation = """
