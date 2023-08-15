@@ -175,7 +175,7 @@ print(resultado)
 Recuerda que debemos hacer el cast de la variable para que la suma sea de los mismos tipos y no nos de error.
 ### Paso 5 Concatenación
 
-Si tenemos dos String, a diferencia de Kotlin podemos sumar para mostrarlasy también la concatenación. Que en forma simple es más que un atributo para poder poner más de una variable.
+Si tenemos dos String, a diferencia de Kotlin podemos sumar para mostrarlas y también la concatenación. Que en forma simple es más que un atributo para poder poner más de una variable.
 
 La formas de concatenación son las siguientes:
 
@@ -409,9 +409,9 @@ func getMonth(_ month : Int){
 	         print("Diciembre")
         default: 
             print("No corresponde a ningún mes del año")
-        }
     }
 }
+
 ```
 
 Este ejemplo es muy sencillo, la función **getMonth** recibe un **Int** al cual se lo mandamos al **switch**, una vez ahí se comprobará todos los casos disponibles, aquí tenemos del 1 a 12. Si concuerda con algún valor automáticamente entrará por ahí y realizará la función oportuna, en este caso imprimir el mes.
