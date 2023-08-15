@@ -245,7 +245,7 @@ Ahora vamos a ver las funciones con parámetros de entrada, que son iguales, per
 ```
 showMyInformation("Alex", "Fernández", 31)
 
-func showMyInformation(name: String, lastName: String, age: Int){
+func showMyInformation(_ name: String, _ lastName: String, _ age: Int){
     print("Me llamo \(name) \(lastName) y tengo \(age) años.")
 }
 ```
