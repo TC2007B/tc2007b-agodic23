@@ -3,25 +3,25 @@
 ![Tec de Monterrey](/images/logotecmty.png)
 
 ## Temario Técnico
-| Clase | Tema        | Recursos
-| ----- | ----------- |-------- |
-|   1   | Introducción al desarrollo móvil (Técnico) | [Presentación1](https://docs.google.com/presentation/d/1QriPiwRf9AlTWUCWdEzkP1my3Y2n3eam4UlggxtaqGA/edit?usp=sharing) / [Presentación2](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw)  |
-|   2   | Introducción a Kotlin |
-|   3   | Mi primera app en Android |
-|   4   | Concepto detalle vista |
-|   5   | MVVM y Clean Architecture |
-|   6   | Ciclos de Vida |
-|   7   | Despliegue de Aplicaciones |
+| Clase | Tema                                       | Recursos                                                                                                                                                                                                                                                                           |
+| ----- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Introducción al desarrollo móvil (Técnico) | [Presentación1](https://docs.google.com/presentation/d/1QriPiwRf9AlTWUCWdEzkP1my3Y2n3eam4UlggxtaqGA/edit?usp=sharing) / [Presentación2](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) |
+| 2     | Introducción a Kotlin                      |
+| 3     | Mi primera app en Android                  |
+| 4     | Concepto detalle vista                     |
+| 5     | MVVM y Clean Architecture                  |
+| 6     | Ciclos de Vida                             |
+| 7     | Despliegue de Aplicaciones                 |
 
 ## Laboratorios
-| Laboratorio | Tema        | Recursos |
-| ----- | ----------- |---- |
-|   1   | Introducción a Kotlin |  [Laboratorio](/mobile/labs/1_intro_kotlin.md) |
-|   2   | Primera App en Kotlin con ViewBinding y diseño de layouts |  |
-|   3   | Data classes y recyclerview | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md) |
-|   4   | Consumiendo APIs | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)
-|   5   | MVVM | [Laboratorio](/mobile/labs/5_arquitectura_mvvm.md)  |
-|   6   | Fragmentos y Material Design | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md)
+| Laboratorio | Tema                                                      | Android                                                       | iOS                                        |
+| ----------- | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------ |
+| 1           | Introducción a Kotlin/Swift                               | [Laboratorio](/mobile/labs/1_intro_kotlin.md)                 | [Laboratorio](/ios/labs/1_intro_kotlin.md) |
+| 2           | Primera App en Kotlin con ViewBinding y diseño de layouts |                                                               |
+| 3           | Data classes y recyclerview                               | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md)  |
+| 4           | Consumiendo APIs                                          | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)             |
+| 5           | MVVM                                                      | [Laboratorio](/mobile/labs/5_arquitectura_mvvm.md)            |
+| 6           | Fragmentos y Material Design                              | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md) |
 
 ## Como empezar
 ### Para la clase necesitarás lo siguiente:
