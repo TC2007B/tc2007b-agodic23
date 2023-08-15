@@ -3,11 +3,11 @@
 ![Tec de Monterrey](/images/logotecmty.png)
 
 ## Temario Técnico
-| Clase | Tema                                       | Recursos                                                                                                                                                                                                                                                                                         |
-| ----- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1     | Introducción al desarrollo móvil (Técnico) | [Presentación1](https://docs.google.com/presentation/d/1IWuIlCWQ2FLjHXrOKezM8-RiSa1Or-wo9l-ckO_1HLY/edit#slide=id.g23bc83ae714_0_0) / [Presentación2](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) |
-| 2     | Introducción a Kotlin/Swift                | [iOS](/mobile/ios/ppts/IOS_Introduction.pdf)                                                                                                                                                                                                                                                     |
-| 3     | Mi primera app en Android                  |
+| Clase | Tema                                       | Android                                                                                                                                             | iOS                                          |
+| ----- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 1     | Introducción al desarrollo móvil (Técnico) | [Introducción](https://docs.google.com/presentation/d/1IWuIlCWQ2FLjHXrOKezM8-RiSa1Or-wo9l-ckO_1HLY/edit#slide=id.g23bc83ae714_0_0)                  |
+| 2     | Introducción a Kotlin / Swift              | [Kotlin](https://docs.google.com/presentation/d/1fMJWpEbnQGd39zwsrzVWm3hM9Myh6mWYS1Tgq8USrls/edit?usp=sharing&resourcekey=0-TC3peTh9IKAQx3IoIxJfGw) | [iOS](/mobile/ios/ppts/IOS_Introduction.pdf) |
+| 3     | Mi primera app en Android / iOS            |
 | 4     | Concepto detalle vista                     |
 | 5     | MVVM y Clean Architecture                  |
 | 6     | Ciclos de Vida                             |
@@ -26,6 +26,7 @@
 ## Como empezar
 ### Para la clase necesitarás lo siguiente:
 
+#### Android
 - Android Studio en su versión más actual.
 - Java en su versión más actual.
 - Kotlin (lo bajarás al configurar nuevos proyectos en Android por lo que no requieres configuración adicional)
@@ -34,6 +35,14 @@
 
 ### Documentación oficial Android
 - [Documentación Oficial](https://developer.android.com/?hl=es-419)
+
+#### iOS
+- Computadora con MacOS
+- Xcode en su versión más actual.
+- En caso de no contar con un dispositivo iOS deberás hacer uso del emulador. **Nota: El emulador tiende a hacer uso de muchos recursos de la computadora, verifica que tu computadora pueda correrlo en caso de usarlo.**.
+
+### Documentación oficial iOS
+- [Documentación Oficial](https://developer.apple.com/develop/)
 
 ### Materiales de Consulta
 - El mundo de Android se mueve muy rápido si bien existe bibliografía al respecto te recomiendo más que busques en artículos, la documentación oficial o con algunos expertos GDE (Google Developer Expert).
