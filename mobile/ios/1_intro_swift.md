@@ -212,7 +212,7 @@ Empezaremos a hablar de las funciones en Swift, en otros lenguajes también son 
 
 #### Declarando funciones
 
-Las funciones se declaran usando la palabra clave **fun**, seguida del nombre del método, los paréntesis donde declararemos los valores de entrada y unas llaves que limitan la función.
+Las funciones se declaran usando la palabra clave **func**, seguida del nombre del método, los paréntesis donde declararemos los valores de entrada y unas llaves que limitan la función.
 
 ```    
 func showMyName(){
