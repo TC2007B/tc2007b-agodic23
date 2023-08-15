@@ -635,7 +635,7 @@ print("The status message is \(http200Status.description)")
 
 Ya que hemos revisado los conceptos básicos de Swift paso a paso, es momento de que empieces con uno de los elementos fundamentales de este curso y es a **hacerte dueño de tu aprendizaje.**
 
-A continuación te dejaré los [Swift Challenges](https://www.hackingwithswift.com/books/coding-challenges) que nos son más que problemas para seguir reforzando el aprendizaje de Swift.
+A continuación te dejaré los [Mobile Challenges](https://github.com/igorwojda/kotlin-coding-challenges) que nos son más que problemas para seguir reforzando el aprendizaje de Swift.
 
 Esto te podrá llevar a trabajar más en tu lógica de programación o en su defecto buscar algunas librerías adicionales para trabajar el lenguaje y hacerte la vida más simple.
 
