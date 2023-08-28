@@ -36,8 +36,7 @@ Inicia sesión con tu AppleID, en caso de no tener AppleID, en la parte de abajo
 
 Una vez que inicies sesión te pedirá que aceptes el Apple Developer Agreement
 
-/mobile/labs/1_intro_kotlin.md)
-![[/mobile/ios/2_modelos_y_listas/Captura de pantalla 2023-08-26 a la(s) 3.28.20.png]]
+![lab_3](2_modelos_y_listas/Captura de pantalla 2023-08-26 a la(s) 3.28.20.png)
 
 Perfecto, ahora que los aceptaste tienes acceso al portal de desarrolladores de Apple.
 
