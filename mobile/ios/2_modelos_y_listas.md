@@ -30,19 +30,19 @@ Primero que nada ten a la mano las credenciales de tu **Apple ID**, si no lo rec
 
 Ingresa a la página de [Apple Developers](https://developer.apple.com) y dirigete al apartado de **Account**
 
-![[Captura de pantalla 2023-08-26 a la(s) 3.05.48.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%203.05.48.png)
 
 Inicia sesión con tu AppleID, en caso de no tener AppleID, en la parte de abajo se encuentra la opción de ¿No tienes un Apple ID? Crea el tuyo ahora.
 
 Una vez que inicies sesión te pedirá que aceptes el Apple Developer Agreement
 
-![lab_3](2_modelos_y_listas/Captura de pantalla 2023-08-26 a la(s) 3.28.20.png)
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%203.28.20.png)
 
 Perfecto, ahora que los aceptaste tienes acceso al portal de desarrolladores de Apple.
 
 Para seguir con este proceso ahora abre Xcode, no es necesario que crees un nuevo proyecto por el momento, ve a la barra de menús y ve a Xcode -> Settings -> Accounts y agrega tu cuenta como Apple ID.
 
-![[Captura de pantalla 2023-08-26 a la(s) 4.05.20.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%204.05.20.png)
 
 Ingresa tu AppleID, contraseña y código de verificación que se te solicita y listo conecta tu dispositivo.
 
@@ -51,15 +51,17 @@ Para poder usarlo de manera inalámbrica sigue los siguientes pasos:
 1. Mientras tu dispositivo físico está conectado a la computadora
 2. Dirígete a la barra de navegación en Window -> Devices
 3. En la ventana que aparece ve a la información de tu dispositivo y asegúrate de que el checkbox Connect via network está activado
-![[Captura de pantalla 2023-08-26 a la(s) 17.46.00.png]]
+
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%2017.46.00.png)
 
 ### Paso 1 Creación del Proyecto
 
 Vamos a empezar creando un proyecto desde 0, por lo que vamos a abrir Xcode y vamos a realizar las siguientes configuraciones.
-![[Captura de pantalla 2023-08-25 a la(s) 23.32.44.png]]
+
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-25%20a%20la(s)%2023.32.44.png)
 
 Después vamos a seleccionar un template de iOS tipo **App**.
-![[Captura de pantalla 2023-08-25 a la(s) 23.48.49.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-25%20a%20la(s)%2023.48.49.png)
 
 Los siguientes parámetros los añadiremos de la siguiente forma:
 ```
@@ -70,13 +72,14 @@ Interface: SwiftUI
 Language: Swift
 ```
 
-![[Captura de pantalla 2023-08-26 a la(s) 0.25.28 1.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%200.25.28%201.png)
+
 Con esta configuración base damos clic en **Next** y dejamos que el proyecto empiece a crearse.
 
 Para este punto del curso ya debes tener listo tu Xcode configurado En cualquier caso si necesitas configurar todavía algo no olvides revisar la sección de materiales del repositorio para ayudarte a terminar con estos pasos.
 
 Una vez que haya finalizado de configurarse deberemos ver algo como lo siguiente:
-![[Captura de pantalla 2023-08-26 a la(s) 0.34.50.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%200.34.50.png)
 
 Para esta ocasión vamos a notar lo siguiente de nuestra estructura de proyecto.
 
@@ -91,7 +94,7 @@ Para esta ocasión vamos a notar lo siguiente de nuestra estructura de proyecto.
 
 Para este paso vamos a abrir el package principal *Pokedex* e ir a la sección de Project Pokedex -> Package Dependencies
 
-![[Captura de pantalla 2023-08-26 a la(s) 1.59.49.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%201.59.49.png)
 
 Recuerda que Xcode tiene integrado el uso de Swift Package Manager, si deseas agregar librerías con CocoaPods o Carthage el procedimiento será distinto. 
 
@@ -105,14 +108,14 @@ Esta librería es una de las más comunes en el mundo de iOS para hacer conexion
 
 Dicho lo anterior, dentro de los **package dependencies** vamos a dar clic en el icono de +:
 
-![[Captura de pantalla 2023-08-26 a la(s) 2.10.18.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%202.10.18.png)
 
 Busca la librería de Alamofire a través del siguiente link de la siguiente manera:
 ```
 https://github.com/Alamofire/Alamofire.git
 ```
 
-![[Captura de pantalla 2023-08-26 a la(s) 2.37.46.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%202.37.46.png)
 
 Espera a que finalice la descarga y da clic en **Add Package** en la ventana emergente.
 
@@ -128,7 +131,7 @@ https://github.com/SDWebImage/SDWebImageSwiftUI
 ```
 
 El resultado final deberá verse algo como:
-![[Captura de pantalla 2023-08-26 a la(s) 2.46.22.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-26%20a%20la(s)%202.46.22.png)
 
 ### Paso 3 App Structure
 
@@ -155,7 +158,7 @@ Por lo tanto la que se esta utilizando aquí es el Window Group que contiene la 
 
 Además de nuestra vista principal en el App Structure, se comentó que también podemos manejar el ciclo de vida de nuestra aplicación. Los estados que nuestra aplicación puede tener son los siguientes:
 
-![[Pasted image 20230826224657.png]]
+![lab_3](2_modelos_y_listas/Pasted%20image%2020230826224657.png)
 
 El sistema operativo mueve las escenas de tu aplicación a través del ciclo de vida, cada uno estos te ayudarán en el desarrollo de la aplicación para cuando tengas que manejar ciertos eventos como ejecutar acciones en background como enviar una notificación una vez que el usuario cierre la app o mostrar algún mensaje cuando el usuario regresa a tu aplicación.
 
@@ -205,7 +208,7 @@ Ya que entendimos el código, vamos a correr la aplicación para que puedas ente
 
 Para correr la aplicación vamos a dirigirnos a la barra de navegación superior de Xcode 
 
-![[Captura de pantalla 2023-08-27 a la(s) 3.48.50.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%203.48.50.png)
 
 1. Encontraremos el botón de play para correr nuestra aplicación
 2. En caso de que tengas ligado un repositorio a tu proyecto aquí podrás ver los branches disponibles y crear nuevos.
@@ -217,11 +220,11 @@ Entonces para que puedas probar los ciclos de vida de la aplicación corre el pr
 
 La **consola** de Xcode, se abrirá automáticamente cuando abras el proyecto, sin embargo, verifica que el panel derecho se encuentre activado para que puedas ver las impresiones.
 
-![[Captura de pantalla 2023-08-27 a la(s) 4.12.39.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%204.12.39.png)
 
 En nuestro simulador/dispositivo podemos encontrar la aplicación de la siguiente manera:
 
-![[Simulator Screenshot - iPhone 13 mini - 2023-08-27 at 04.18.36.png]]
+![lab_3](2_modelos_y_listas/Simulator%20Screenshot%20-%20iPhone%2013%20mini%20-%202023-08-27%20at%2004.18.36.png)
 
 ### Paso 5 Estructurando modelos de datos en Swift
 
@@ -264,9 +267,9 @@ Para comenzar vamos a crear una carpeta (File -> New -> Group) que se llame Mode
 
 **Nota: La construcción de conexión con el API ejemplo es un poco diferente a lo normal puesto que sus datos se obtienen mediante muchas llamadas, esto puede afectar el rendimiento del lado del servidor, por tanto para tu proyecto asegúrate que el API construida sea funcional y óptima tanto para la app como para tu servidor.**
 
-![[Captura de pantalla 2023-08-27 a la(s) 4.44.54.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%204.44.54.png)
 
-![[Captura de pantalla 2023-08-27 a la(s) 4.49.11.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%204.49.11.png)
 
 Lo que debemos hacer es definir cada uno de los parámetros de nuestra API que vamos a utilizar dentro de nuestro  **modelo**.
 
@@ -325,7 +328,7 @@ struct PokemonBase {
 ```
 
 Al final la estructura de nuestro código quedará de la siguiente manera.
-![[Captura de pantalla 2023-08-27 a la(s) 6.12.53.png]]
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%206.12.53.png)
 
 **Nota: Existe debate entre que es lo ideal, si obtener toda la información del API, o solo obtener la información necesaria, lo que va a usar la app, si bien no existe una respuesta correcta, mi recomendación es por seguridad y optimización trata de usar solo lo necesario pero en ocasiones deberás usar o almacenar los objetos completos cuando se trate con bases de datos locales.**
 
@@ -359,7 +362,7 @@ También en las aplicaciones más modernas podemos tener Detalles que contienen 
 
 Por último una vista de tipo Lista que incluye componentes como búsquedas y filtros podemos considerarlas todavía como Listas ya que los elementos de complejidad no son de interfaz son más de cuestión lógica.
 
-![lab_4](4_044.png)
+![lab_4](/mobile/labs/4_data_classes_recyclerview/4_044.png)
 
 En el ejemplo anterior tenemos una lista y un detalle, si abstraemos la celda de la lista podemos ver que en complejidad es mucho más simple que el detalle completo.
 
@@ -375,7 +378,7 @@ Pensemos en una app como Netflix, la cual tiene muchas películas, guardar todas
 
 Incluso celdas muy complejas en ciertas listas pueden llevar a implementaciones difíciles, en ese aspecto el **List** reduce todo el trabajo.
 
-![[listview.png]]
+![lab_3](2_modelos_y_listas/listview.png)
 
 Con la imagen anterior podemos ver un poco que es lo que pasa, al momento de hacer Scroll, la celda que está hasta arriba se "elimina" por lo que al dejar de estar visible libera sus recursos para que la celda de hasta abajo pueda ser cargada y mantener equilibrio en el uso de recursos.
 
@@ -400,7 +403,7 @@ struct ContentView: View {
 }
 ```
 
-2. Crear el arreglo que contiene la lista de pokemon
+1. Crear el arreglo que contiene la lista de pokemon
 ```
 struct ContentView: View {
     @State var pokemon = [PokemonBase]()
@@ -493,7 +496,8 @@ El camino ha sido largo pero si hacemos un resumen tenemos lo siguiente:
 5. Una **List** completa para desplegar un conjunto de datos de prueba.
 
 El resultado final podrás verlo en le preview debería verse de la siguiente manera:
-![[Captura de pantalla 2023-08-27 a la(s) 6.41.11.png]]
+
+![lab_3](2_modelos_y_listas/Captura%20de%20pantalla%202023-08-27%20a%20la(s)%206.41.11.png)
 
 Si quieres ver como funciona mejor, intenta añadiendo más elementos a la lista de pruebas de los Pokemon, y añade imágenes desde una url cuando creamos los pokemon
 
