@@ -725,7 +725,28 @@ func getPokemonList() async {
 
 En la primera parte estamos obteniendo el id del Pokemon, esto es más en como declaramos nuestra API, donde lo que recibe es el id directamente, pero bien podríamos ajustar a recibir la URL, ahí es más a gusto de cada uno.
 
-La parte donde definimos la Corrutina es prácticamente la misma que la del **getPokemonList()** haciendo la llamada al API y obteniendo el resultado.
+Después estamos haciendo la llamada a nuestra API con **getPokemonInfo** y complementando la inicialización de nuestro objeto **PokemonBase**.
+
+Si quisieramos simplificar nuestro código lo que podemos es cambiar el bloque de código de la siguiente forma:
+
+```
+func getPokemonList() async {
+    let pokemonRepository = PokemonRepository()
+    let result = await pokemonRepository.getPokemonList(limit: 1279)
+    
+    var tempPokemonList = [PokemonBase]()
+    for pokemon in result!.results {
+        let pokemonUrl = Array(pokemon.url)
+        let numberPokemon = pokemonUrl[pokemonUrl.count-2]
+        
+        let infoPokemon = await pokemonRepository.getPokemonInfo(numberPokemon: Int(String(numberPokemon))!)
+        let tempPokemon = PokemonBase(id: Int(String(numberPokemon))!, pokemon: pokemon, perfil: infoPokemon)
+        tempPokemonList.append(tempPokemon)
+    }
+    pokemonList = tempPokemonList
+}
+```
+Encuentra las diferencias y decide que forma te gusta más.
 
 Ahora ejecutamos la aplicación y el resultado final será, si se tarda un ratito ten paciencia está cargando :)
 
