@@ -111,15 +111,7 @@ Ya que tenemos nuestros modelos en su sitio, ahora vamos a crear el **group** qu
 
 ![lab_6](/mobile/ios/5_mvvm/estructura_views.png)
 
-Y listo, con esto ya tenemos ordenado nuestro proyecto con lo que hemos trabajado hasta ahora. Lo importante de aquí en adelante es crear los archivos en sus correspondientes para que cuando tu proyecto que tenemos aquí pase de esto a algo como esto.
-
-![lab_6](6_arquitectura_mvvm/6_007.png)
-
-Puedas identificar los archivos fácilmente. En el ejemplo del screenshot que te pongo es de un proyecto real que incorpora MVVM como arquitectura más un adicional que veremos un poco más adelante.
-
-Regresando a nuestro proyecto, con lo que tenemos creado ahora se hace más que evidente que lo que nos hace falta por implementar es el **ViewModel** entonces antes que cualquier otra cosa pase vamos a crear el **group** que nos hace falta llamado **Viewmodels**.
-
-![lab_6](6_arquitectura_mvvm/6_008.png)
+Y listo, con esto ya tenemos ordenado nuestro proyecto con lo que hemos trabajado hasta ahora. Lo importante de aquí en adelante es crear los archivos en sus correspondientes.
 
 ### Paso 3 Trabajando con el ViewModel
 
