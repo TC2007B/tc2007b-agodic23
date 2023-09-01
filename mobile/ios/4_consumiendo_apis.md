@@ -712,8 +712,7 @@ func getPokemonList() async {
     
     var tempPokemonList = [PokemonBase]()
     for i in 0...result!.results.count-1 {
-        let pokemonUrl = Array(result!.results[i].url)
-        let numberPokemon = pokemonUrl[pokemonUrl.count-2]
+        let numberPokemon = Int(pokemon.url.split(separator: "/")[5])!
         
         let infoPokemon = await pokemonRepository.getPokemonInfo(numberPokemon: Int(String(numberPokemon))!)
         let tempPokemon = PokemonBase(id: i, pokemon: result!.results[i], perfil: infoPokemon)
@@ -736,8 +735,7 @@ func getPokemonList() async {
     
     var tempPokemonList = [PokemonBase]()
     for pokemon in result!.results {
-        let pokemonUrl = Array(pokemon.url)
-        let numberPokemon = pokemonUrl[pokemonUrl.count-2]
+        let numberPokemon = Int(pokemon.url.split(separator: "/")[5])!
         
         let infoPokemon = await pokemonRepository.getPokemonInfo(numberPokemon: Int(String(numberPokemon))!)
         let tempPokemon = PokemonBase(id: Int(String(numberPokemon))!, pokemon: pokemon, perfil: infoPokemon)
