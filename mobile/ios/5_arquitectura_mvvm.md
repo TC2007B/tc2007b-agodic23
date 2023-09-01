@@ -57,7 +57,7 @@ En nuestro laboratorio este módulo o esta capa aún no existe y aquí es donde 
 #### ¿Cómo funciona MVVM?
 Seguramente te hayas quedado más confundido con la explicación anterior que antes de empezar este laboratorio, pero vamos a unirlo todo para que quede más claro.
 
-![lab_6](/mobile/ios/5_mvvm/arquitectur_mvvm.png/6_001.png)
+![lab_6](/mobile/ios/5_mvvm/arquitectur_mvvm.png)
 
 Vamos a usar nuestro laboratorio de referencia.
 
