@@ -232,7 +232,7 @@ Esta nueva arquitectura nos va a traer beneficios de estructura, pero algo inter
 
 Como ya mencionamos a diferencia de **MVC MVP MVVM** que son los patrones de arquitectura al menos conocidos de Android, **Clean architecture** es una meta arquitectura que podemos integrar en cualquiera de nuestra aplicaciones en conjunto con las anteriores mencionadas.
 
-![lab_6](6_arquitectura_mvvm/6_011.png)
+![lab_6](/mobile/labs/6_arquitectura_mvvm/6_011.png)
 
 No hay una forma correcta de aplicar esta teoría y aquí es donde cada uno **tiene que entenderlo y aplicarlo como mejor le convenga**. Los beneficios que nos aporta es definir el proyecto en varias capas, es decir, lo de afuera sabe lo que hay dentro pero lo de adentro no sabe lo que tiene por fuera.
 
