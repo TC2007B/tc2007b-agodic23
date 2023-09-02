@@ -535,6 +535,8 @@ DispatchQueue.main.async {
 
 Tenlo en cuenta por si llegas a verlo en otros ejemplos o tutoriales.
 
+![lab_6](/mobile/ios/5_mvvm/main_actor.png)
+
 Ahora si llego la hora más importante de estos últimos 3 laboratorios, ejecuta tu aplicación. Si seguiste los pasos hasta este punto no deberías de tener errores y el resultado pues ya lo conoces.
 
 ![lab_6](/mobile/ios/5_mvvm/resultado_final.png)

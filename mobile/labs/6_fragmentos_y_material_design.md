@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-En este laboratorio aprenderemos sobre la comunicació de los Activities, el uso de Fragmentos, y un poco sobre reglas de Material Design y de UI en Android.
+En este laboratorio aprenderemos sobre la comunicación de los Activities, el uso de Fragmentos, y un poco sobre reglas de Material Design y de UI en Android.
 
 Para este laboratorio vamos a continuar el desarrollo del Pokedex que hemos venido realizando hasta ahora.
 
