@@ -371,7 +371,9 @@ Ahora viene lo complicado ¿Cómo llegamos a ella después de iniciar sesión? �
 
 Para ello vamos utilizar el patrón de diseño **Coordinator**
 
-1. Explicar el coordinator patern
+Utilizando el coordinator pattern podemos remover el trabajo de navegación a nuestros controladores, nos ayuda a hacerlos manejables y reusables, por lo que nos permite adaptar nuestro flujo cuando lo necesitemos.
+
+El Coordinator patter hace que los controladores sean independientes trabajando de una mejor manera independientemente de la posición que nuestra vista en el stack de vistas, con el stack de vistas me refiero a como se organizas la vistas en una aplicación móvil, siempre que habrás una nueva vista se agrega a un stack, es decir, si abres mil vistas y no manejas el ciclo de vida podrías crear un memory leak por tantas pantallas abiertas. En una navegación lista-detalle ambas vistas se encuentran en el stack aunque diera la sensación que list no existe.
 
 Bien, sin más preambulos vamos a hacer como se hace. A través de Swift Pagackage Manager (SPM) instala la librería de **Flowstacks** (https://github.com/johnpatrickmorgan/FlowStacks)
 
