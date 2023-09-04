@@ -21,8 +21,8 @@
 | 3           | Modelos y Listas            | [Laboratorio](/mobile/labs/3_data_classes_y_recyclerview.md)  | [Laboratorio](/mobile/ios/2_modelos_y_listas.md)                                    |
 | 4           | Consumiendo APIs            | [Laboratorio](/mobile/labs/4_consumiendo_apis.md)             | [Laboratorio](/mobile/ios/4_consumiendo_apis.md)                                    |
 | 5           | Arquitectura de Proyectos   | [Laboratorio](/mobile/labs/5_arquitectura_mvvm.md)            | [Laboratorio](/mobile/ios/5_arquitectura_mvvm.md)                                   |
-| 6           | Desarrollo Avanzado y UI    | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md) |
-
+| 6           | Desarrollo Avanzado y UI    | [Laboratorio](/mobile/labs/6_fragmentos_y_material_design.md) | [Laboratorio](/mobile/ios/6_advanced_ui.md)                                         |
+ 
 ## Como empezar
 ### Para la clase necesitarás lo siguiente:
 
