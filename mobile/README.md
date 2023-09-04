@@ -43,6 +43,14 @@
 
 ### Documentación oficial iOS
 - [Documentación Oficial](https://developer.apple.com/develop/)
+- **Ray Wenderlych** es uno de los iOS developers más conocidos encontrarás muchos tutoriales que te puedan ayudar en la página de [Kodeco](https://www.kodeco.com/ios/paths)
+- [SwiftBeta](https://www.swiftbeta.com) Tutoriales de swift
+- [Unit Testing with Protocols](https://m25lazi.medium.com/unit-testing-swift-code-with-protocols-7aa0b8d7816d) Te dejo un link con un ejemplo de testing con protocolos.
+- [Dependency Injection with Alamofire](https://www.avanderlee.com/swift/mocking-alamofire-urlsession-requests/)
+- [Introduction to Unit Testing](https://www.avanderlee.com/swift/unit-tests-best-practices/)
+- [Property Wrappers](https://www.thoughtworks.com/es-cl/insights/blog/mobile/guia-para-entender-los-property-wrappers-en-swiftui)
+- [AppStore Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines)
 
 ### Materiales de Consulta
 - El mundo de Android se mueve muy rápido si bien existe bibliografía al respecto te recomiendo más que busques en artículos, la documentación oficial o con algunos expertos GDE (Google Developer Expert).
